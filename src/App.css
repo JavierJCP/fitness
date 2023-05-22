@@ -1,5 +1,4 @@
 body {
-  font-family: 'Josefin Sans';
   background-color: #fffafb;
 }
 
@@ -56,9 +55,10 @@ body {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
+  width: auto;
   height: 900px;
   margin-top: -330px;
+  border-radius: 0 0 0 5rem;
 }
 
 .exercise-card {

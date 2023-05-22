@@ -1,7 +1,6 @@
 import { Stack, Typography } from '@mui/material';
-import Icon from '../assets/icons/gym.png';
 
-function BodyPart({ item, setBodyPart, bodyPart }) {
+function BodyPart({ item, setBodyPart, bodyPart, Icon }) {
   return (
     <Stack
       type='button'
@@ -25,7 +24,7 @@ function BodyPart({ item, setBodyPart, bodyPart }) {
       <img
         src={Icon}
         alt='dumbbell'
-        style={{ width: '40px', height: '40px' }}
+        // style={{ width: '40px', height: '40px' }}
       />
       <Typography
         fontSize='24px'
